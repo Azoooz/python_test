@@ -42,5 +42,22 @@ x = 22 ;
 y = "ahmad"
 print(y + x)
 
+#fourth day
+x = 1
+y = 2.5
+z = 1j
+print(type(x) , type(y) , type(z))
+
 """
+import random
+
+print(random.randrange(100,130))
+
+x = "orange"
+y = "-apple"
+z = "-limon"
+
+basket = x + y + z
+print(basket)
+
 
