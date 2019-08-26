@@ -49,15 +49,31 @@ z = 1j
 print(type(x) , type(y) , type(z))
 
 """
-import random
+# import random
+#
+# print(random.randrange(30, 50))
+#
+# x = "orange"
+# y = "-apple"
+# z = "-limon"
+#
+# basket = x + y + z
+# print(basket)
 
-print(random.randrange(100,130))
 
-x = "orange"
-y = "-apple"
-z = "-limon"
+x = int(2.5)
+z = int(3.4)
+y = int(5.6)
 
-basket = x + y + z
-print(basket)
+print(x,y,z)
 
+y = str(33)
 
+print(type(y)," is  ",y)
+
+x = float(3)
+
+print(type(x), x)
+
+word = "hello, Hi everyone "
+print(word[4], word[15:18])
